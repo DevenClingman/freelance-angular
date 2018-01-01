@@ -4,14 +4,7 @@ import { Component } from '@angular/core';
   moduleId: module.id,
   selector: 'app',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css'],
-  template: `
-
-  <h1>Navigation</h1>
-
-
-  <router-outlet></router-outlet>
-  `
+  styleUrls: ['./app.component.css']
 })
 export class AppComponent {
   title = 'Freelance Dashboard';
