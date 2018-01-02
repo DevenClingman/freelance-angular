@@ -7,6 +7,7 @@ import { Document } from './document';
   styleUrls: ['./documents.component.css']
 })
 export class DocumentsComponent implements OnInit {
+  pageTitle: string = "Document Dashboard";
 
   documents: Document[] = [
     {

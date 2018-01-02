@@ -6,6 +6,8 @@ import { HomepageComponent } from './homepage/homepage.component';
 import { DocumentsComponent } from './documents/documents.component';
 
 import { AppRoutingModule } from './app-routing.module';
+import { ProposalListComponent } from './proposal-list/proposal-list.component';
+
 
 
 
@@ -13,7 +15,8 @@ import { AppRoutingModule } from './app-routing.module';
   declarations: [
     AppComponent,
     HomepageComponent,
-    DocumentsComponent
+    DocumentsComponent,
+    ProposalListComponent,
   ],
   imports: [
     BrowserModule,
